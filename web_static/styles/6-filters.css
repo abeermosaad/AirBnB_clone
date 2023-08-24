@@ -1,0 +1,68 @@
+.filters {
+	height: 70px;
+	width: 100%;
+	border: 1px #DDDDDD solid;
+	border-radius: 4px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: rgb(0, 0, 0);
+}
+button {
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #FF5A5F;
+	height: 48px;
+	width: 20%;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 30px;
+	margin-left: 220px;
+}
+button:hover {
+	opacity: 0.9
+}
+.locations, .amenities {
+	height: 100%;
+	width: 25%;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.locations {
+	border-right: 1px #DDDDDD solid;
+}
+.locations h3, .amenities h3 {
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0px;
+	text-align: justify;
+
+}
+.locations h4, .amenities h4 {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: justify;
+}
+.popover {
+	background-color: #FAFAFA;
+	width: 100%;
+	border: 1px #DDDDDD solid;
+	list-style: none;
+	border-radius: 4px;
+	padding: 10px;
+	margin-left: -20px;
+	margin-top: 18px;
+	display: none;
+	position: relative;
+}
+.states .cities, .popover li{
+	list-style: none;
+}
+.amenities:hover .popover, .locations:hover .popover{
+	display: block;
+}
+
